@@ -1,1 +1,99 @@
-"# allyx.github.io" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AllyX – Your AI Teammate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-gray-200 font-sans">
+  <!-- Hero Section -->
+  <header class="relative bg-gradient-to-br from-black to-gray-900">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h1 class="text-5xl md:text-7xl font-bold text-white tracking-tight">
+        AllyX <span class="text-indigo-500">— Your AI Teammate</span>
+      </h1>
+      <p class="mt-6 text-lg text-gray-400 max-w-2xl mx-auto">
+        An AI companion that learns your playstyle, adapts in real time, and plays alongside you.  
+        Not a script, not a cheat—AllyX feels like a true teammate.
+      </p>
+      <div class="mt-8 flex justify-center gap-4">
+        <a href="#pricing" class="px-6 py-3 bg-indigo-600 text-white rounded-xl shadow-lg hover:bg-indigo-500">Get Started</a>
+        <a href="#how-it-works" class="px-6 py-3 border border-gray-600 rounded-xl hover:border-indigo-500">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- How It Works -->
+  <section id="how-it-works" class="py-20 bg-black border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-12 text-center">
+      <div>
+        <h3 class="text-xl font-semibold text-indigo-400 mb-3">Learns As You Play</h3>
+        <p class="text-gray-400">AllyX starts as a beginner and improves by watching your inputs. No pre-training, no rigid scripts—pure adaptation.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-indigo-400 mb-3">Game-Agnostic</h3>
+        <p class="text-gray-400">Supports multiple titles through adapters. The same AI can join you across different genres and worlds.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-indigo-400 mb-3">Human-Like Behavior</h3>
+        <p class="text-gray-400">Moves with human-like timing, mistakes, and learning curve. It feels like a friend, not a bot.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compatible Games -->
+  <section id="games" class="py-20 bg-gradient-to-b from-gray-900 to-black text-center">
+    <h2 class="text-3xl font-bold mb-8">Currently Compatible Games</h2>
+    <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="p-6 bg-gray-800 rounded-2xl">GTA: San Andreas</div>
+      <div class="p-6 bg-gray-800 rounded-2xl">Skyrim</div>
+      <div class="p-6 bg-gray-800 rounded-2xl">Minecraft (Java)</div>
+      <div class="p-6 bg-gray-800 rounded-2xl">CS:GO</div>
+    </div>
+    <p class="mt-6 text-gray-500">More titles added regularly.</p>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 bg-black text-center border-t border-gray-800">
+    <h2 class="text-3xl font-bold mb-8">Choose Your Plan</h2>
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+      <div class="p-8 bg-gray-900 rounded-2xl border border-gray-800">
+        <h3 class="text-xl font-semibold mb-4">Starter</h3>
+        <p class="text-3xl font-bold mb-6">$5<span class="text-lg text-gray-400">/mo</span></p>
+        <ul class="text-gray-400 mb-6 space-y-2">
+          <li>1 Supported Game</li>
+          <li>Basic AI Companion</li>
+          <li>Community Support</li>
+        </ul>
+        <a href="#" class="block px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-500">Subscribe</a>
+      </div>
+      <div class="p-8 bg-gray-900 rounded-2xl border border-indigo-500 shadow-xl">
+        <h3 class="text-xl font-semibold mb-4 text-indigo-400">Pro</h3>
+        <p class="text-3xl font-bold mb-6">$15<span class="text-lg text-gray-400">/mo</span></p>
+        <ul class="text-gray-400 mb-6 space-y-2">
+          <li>All Supported Games</li>
+          <li>Faster Learning Rate</li>
+          <li>Email Support</li>
+        </ul>
+        <a href="#" class="block px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-500">Subscribe</a>
+      </div>
+      <div class="p-8 bg-gray-900 rounded-2xl border border-gray-800">
+        <h3 class="text-xl font-semibold mb-4">Enterprise</h3>
+        <p class="text-3xl font-bold mb-6">Custom</p>
+        <ul class="text-gray-400 mb-6 space-y-2">
+          <li>Custom Game Integration</li>
+          <li>Priority Features</li>
+          <li>Direct Support</li>
+        </ul>
+        <a href="#" class="block px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-500">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-gray-900 text-gray-500 text-center">
+    <p>&copy; 2025 AllyX. All rights reserved.</p>
+  </footer>
+</body>
+</html>
